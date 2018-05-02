@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  color: white;
+}
+
+.slide {
+  height: 100vh;
+  padding-top: 100px;
+}
+
+#slide1 {
+  background: url(../images/slide1-bg.jpg) center 0 no-repeat fixed;
+
+  .slide_container {
+    text-align: center;
+  }
+}
+
+#slide2 {
+  background: url(../images/slide2-bg.jpg) center 0 no-repeat fixed;
+}
+
+#slide3 {
+  background: url(../images/slide3-bg.jpg) center 0 no-repeat fixed;
+}
+
+.slide_container {
+  width: 980px;
+  margin: 0 auto;
+}
