@@ -15,7 +15,7 @@ h2 {
 
 p {
   font-family: 'PT Sans', sans-serif;
-  font-size: 16px;
+  font-size: 27px;
   text-align: justify;
 }
 
@@ -54,15 +54,61 @@ p {
     }
   }
   .text-content {
+    background-color: rgba(255, 255, 255, 0.7);
     height: 225px;
-    p {
-      font-size: 27px;
-    }
   }
 }
 
 #slide3 {
-  background: url(../images/slide3-bg.jpg) center 0 no-repeat fixed;
+  background: url(../images/fond2.jpg) center 0 no-repeat fixed;
+  //height: 800px;
+  .image-container {
+    img {
+      width: 539px;
+      top: inherit;
+      bottom: 0;
+      transform: inherit;
+    }
+  }
+  .text-container {
+    .text-content {
+      height: 360px;
+    }
+  }
+}
+
+#slide4 {
+  background: url(../images/fond3.jpg) center 0 no-repeat fixed;
+  //height: 800px;
+  .image-container {
+    img {
+      width: 800px;
+    }
+  }
+  .text-container {
+    .text-content {
+      height: 300px;
+      top: 5%;
+      transform: inherit;
+    }
+  }
+}
+
+#slide5 {
+  background: url(../images/fond4.jpg) center 0 no-repeat fixed;
+  //height: 800px;
+  .image-container {
+    img {
+      width: 250px;
+    }
+  }
+  .text-container {
+    .text-content {
+      height: 185px;
+      top: 5%;
+      transform: inherit;
+    }
+  }
 }
 
 .slide_content {
@@ -71,10 +117,15 @@ p {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  .large-block {
+    width: 55%;
+  }
+  .small-block {
+    width: 40%;
+  }
   .image-container {
     height: 100%;
     position: relative;
-    width: 40%;
     img {
       position: absolute;
       top: 50%;
@@ -86,9 +137,8 @@ p {
   .text-container {
     height: 100%;
     position: relative;
-    width: 55%;
     .text-content {
-      background-color: rgba(255, 255, 255, 0.7);
+      background-color: rgba(218, 218, 218, 0.7);
       height: 600px;
       position: absolute;
       top: 50%;
